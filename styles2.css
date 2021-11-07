@@ -179,3 +179,65 @@ body {
     width: 100%;
     display: block;
 }
+
+.price {
+    text-align: center;
+
+}
+
+.price_table {
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.price_element {
+    background-color: #FFEFD6;
+    text-align: center;
+    border-radius: 15px;
+    width: 330px;
+    padding: 40px;
+    --color-plan: #FFB234;
+    --color-price: #CB7E00;
+    --color-items: #C4A570;
+}
+
+.price_element--best {
+    background-color: #FFF2CC;
+    --color-plan: #FFB234;
+    --color-price: #CB7E00;
+    --color-items: #C4A570;
+}
+
+.price_name {
+    color: var(--color-plan);
+    margin-bottom: 15px;
+    font-weight: 1000;
+    font-size: 2rem;
+}
+
+.price_price {
+    font-size: 1.5rem;
+    color: var(--color-price);
+}
+
+.price_items {
+    margin-top: 20px;
+    display: grid;
+    gap: 1em;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: var(--color-items);
+}
+
+.beneficios {
+    text-align: center;
+    background-color: #f6f7e6;
+    background-image:  radial-gradient(#F7DC6F 0.5px, transparent 0.5px), radial-gradient(#F7DC6F 0.5px, #f6f7e6 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+    overflow: hidden;
+}
