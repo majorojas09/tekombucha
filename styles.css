@@ -28,7 +28,7 @@ body {
     content: "";
     grid-column: 4/-1;
     grid-row: 1/-1;
-    background-image: url(../img/201858.jpg);
+    background-image: url(201858.jpg);
     background-size: cover;
     background-position: right top;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
