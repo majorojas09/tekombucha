@@ -8,7 +8,7 @@ font-family: 'Zen Kurenaido', sans-serif;
 
 :root {
     --padding-container: 100px 0;
-    --color-title: #001A49;
+    --color-title: #CF7B00 ;
 }
 
 body {
@@ -112,4 +112,70 @@ body {
 .hero_paragraph {
     margin-bottom: 20px;
     font-size: 30px;
+}
+
+.about {
+    text-align: center;
+}
+
+.subtitle {
+    color: var(--color-title);
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.about_main {
+    padding-top: 80px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+.about_icons {
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    width: 260px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.about_title {
+    color: #E4C547 ;
+}
+
+.about_paragraph {
+    line-height: 1.7;
+}
+
+.knowledge {
+    background-color: #f6f7e6;
+    background-image:  radial-gradient(#F7DC6F 0.5px, transparent 0.5px), radial-gradient(#F7DC6F 0.5px, #f6f7e6 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+    overflow: hidden;
+}
+
+.knowledge_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    align-items: center;
+}
+
+.knowledge_paragraph {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.knowledge_picture {
+    max-width: 500px;
+}
+
+.knowledge_img {
+    width: 100%;
+    display: block;
 }
