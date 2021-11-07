@@ -21,25 +21,25 @@
             </div>
             <ul class="nav_link nav_link--menu">
                 <li class="nav_items">
-                    <a href="#" class="nav_links">Inicio</a>
+                    <a href="#home" class="nav_links">Inicio</a>
                 </li>
                 <li class="nav_items">
-                    <a href="#" class="nav_links">Reseña</a>
+                    <a href="#about" class="nav_links">Reseña</a>
                 </li>
                 <li class="nav_items">
-                    <a href="#" class="nav_links">Descripción</a>
+                    <a href="#descripcion" class="nav_links">Descripción</a>
                 </li>
                 <li class="nav_items">
-                    <a href="#" class="nav_links">Precios</a>
+                    <a href="#precios" class="nav_links">Precios</a>
                 </li>
                 <li class="nav_items">
-                    <a href="#" class="nav_links">Beneficios</a>
+                    <a href="#beneficios" class="nav_links">Beneficios</a>
                 </li>
                 <li class="nav_items">
-                    <a href="#" class="nav_links">Clientes</a>
+                    <a href="#clientes" class="nav_links">Clientes</a>
                 </li>
                 <li class="nav_items">
-                    <a href="#" class="nav_links">Colaboradores</a>
+                    <a href="#colaboradores" class="nav_links">Colaboradores</a>
                 </li>
                 
                 <img src="close.svg" alt="" class="nav_close">
@@ -50,14 +50,14 @@
             </div>
         </nav>
 
-        <section class="hero_container container">
+        <section class="hero_container container" id="home">
             <h1 class="hero_title">Toad</h1>
             <p class="hero_paragraph">El poder del Kombucha por las propiedades y bendiciones</p>
         </section>
     </header>
 
     <main>
-        <section class="container about">
+        <section class="container about" id="about">
             <h2 class="subtitle">¿Quiénes somos?</h2>
             <p class="about_paragraph">La empresa 4' One S.A nació en 2021, en tiempos de la pandemia de Covid-19. 
                 Somos 4 amigos, estudiantes de UAM, que por el mover de nuestras visiones personales, de trabajo y 
@@ -82,7 +82,7 @@
                 </div>
         </section>
 
-        <section class="knowledge">
+        <section class="knowledge" id="descripcion">
             <div class="knowledge_container container">
                 <div class="knowledge_texts">
                     <h2 class="subtitle">¿Qué es el kombucha?</h2>
@@ -103,7 +103,7 @@
             </div>
         </section>
         
-        <section class="price container"> 
+        <section class="price container" id="precios">
             <h2 class="subtitle">Nuestros precios</h2>
 
             <div class="price_table">
@@ -130,7 +130,7 @@
             </div>
         </section>
 
-        <section class="beneficios">
+        <section class="beneficios" id="beneficios">
             <div class="beneficios_container container">
                 <h2 class="subtitle">Los beneficios del producto</h2>
                 <p class="beneficios_paragraph">
@@ -149,7 +149,14 @@
             </div>
         </section>
 
-        <section class="testimony">
+        <section class="evidencias" id="clientes">
+            <div class="evidencias_container container">
+                <center><h2 class="subtitle">Nuestros clientes están felices con el producto</h2></center>
+                <center><video src="videoEvidencia.mp4" controls></video></center>
+            </div>
+        </section>
+
+        <section class="testimony" id="colaboradores">
             <div class="testimony_container container">
                 <img src="leftarrow.svg" alt="" class="testimony_arrow" id="before">
                 <section class="testimony_body testimony_body--show" data-id="1">
@@ -201,5 +208,7 @@
             </div>
         </section>
     </main>
+    <script src="slider.js"></script>
+    <script src="menu.js"></script>
 </body>
 </html>
